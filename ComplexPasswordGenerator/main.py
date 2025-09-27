@@ -32,4 +32,3 @@ for number in range(0, nr_symbols):
 password = letters_picked + numbers_picked + symbols_picked
 random.shuffle(password)
 print(f'Your randomized password is:\n--> {"".join(password)}')
-
